@@ -1,69 +1,81 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  html {
-      background: url(https://images.unsplash.com/photo-1551269901-5c5e14c25df7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)
-      no-repeat center center fixed;
-      background-size: cover;
-      height: 100%;
-      /*overflow: hidden;*/
-  }
-  
-  body {
-      font-family: "Roboto", sans-serif;
-      font-size: 18px;
-  }
-  
-  header, .starter, .tracker, .multiQuestion, .output {
-    background:rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
-    width: 80%;
-    margin: 80px auto;
-    padding: 40px;
-  }
-  
-  header {
-    text-align: center;
-    font-size: 30px;
-    font-weight: 900;
-      
-  }
-  
-  .starter {
-    width:50%;
-  }
-  
-  button {
-    height: 50px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin: 20px;
-    background-color: rgb(60, 231, 60);
-    color: white;
-    font-weight: 900;
-  }
-  
-  button:hover {
-    background-color: green;
-  }
-  
-  .tracker {
-    
-    height: 50px;
-  
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-  }
+  box-sizing: border-box;
+}
 
-  .multiQuestion {
-      width: 50%;
-  }
+html {
+    background: url(https://images.unsplash.com/photo-1551269901-5c5e14c25df7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60)
+    no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    /*overflow: hidden;*/
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+header, #starter, .tracker, .multiQuestion, .output {
+  background:rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  width: 80%;
+  margin: 40px auto;
+  padding: 40px;
+}
+
+
+header {
+  text-align: center;
+  font-size: 23px;
+  font-weight: 900;
+    
+}
+
+#starter {
+  width:65%;
+  margin-top: 150px;
   
+}
+
+button {
+  height: 50px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: rgb(60, 231, 60);
+  color: white;
+  font-weight: 900;
+  display: block;
+  margin: 30px auto 0;
+}
+
+button:hover, button:focus {
+  background-color: green;
+}
+
+legend, .correctAnswer {
+  font-weight: 700;
+  font-size: 20px;
   
-  .output > p {
-    text-align: center;
-  }
-  
+}
+
+legend {
+  margin-bottom: 10px;
+}
+
+.tracker {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.output > p {
+  text-align: center;
+  vertical-align: middle;
+}
