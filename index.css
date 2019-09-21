@@ -51,6 +51,7 @@ button {
   font-weight: 900;
   display: block;
   margin: 30px auto 0;
+  cursor: pointer;
 }
 
 button:hover, button:focus {
@@ -83,4 +84,8 @@ form {
 .output > p {
   text-align: center;
   vertical-align: middle;
+}
+
+input:hover {
+  cursor: pointer;
 }
