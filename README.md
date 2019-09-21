@@ -5,4 +5,4 @@ https://www.magiquiz.com/quiz/only-a-real-wizard-can-pass-this-ultimate-harry-po
 
 Technologies used: HTML, JavaScript, CSS, jQuery
 
-![Hero image of quiz app](https://www.dropbox.com/s/ksdhlur5h4ewdw1/Quiz%20App.PNG?dl=0)
+![Quiz App](https://user-images.githubusercontent.com/8231429/65378111-603d4c80-dc82-11e9-8c1a-df4111decbe4.PNG)
